@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.toaster-container {
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 10px 0;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+.toaster-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.toaster-message {
+    flex-grow: 1;
+}
+.success{
+    background-color: rgb(162, 240, 201);
+    border-top: rgb(43, 243, 60) 3px solid;
+    top: 50%;
+    
+}
+.error{
+    background-color: rgb(241, 175, 164);
+    border-top: rgb(243, 61, 37) 3px solid;
+    top: 50%;
+}
+.warning{
+    background-color: rgb(246, 229, 178);
+    border-top: rgb(255, 222, 6) 3px solid;
+    top: 50%;
+}
+.info{
+    background-color: rgb(156, 237, 240);
+    border-top: rgb(0, 173, 236) 3px solid;
+    top: 50%;
+}
+
+.close-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
